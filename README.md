@@ -13,5 +13,9 @@ This was created to help windows 7 users to run a python based barcode image dec
 1. Open the **Docker Toolbox** terminal
 2. `cd` into your `~/Desktop` folder (`cd ~/Desktop`)
 3. Clone the repo: `git clone https://github.com/ecovictoriano/barcode-docker-python-zbar-opencv-win7.git`
-4. Build the image by running `./docker-build.sh`
-5. Run and execute the `barcode.sh` script in an instance of the newly created image
+4. Open the cloned directory
+5. Build the image by running `./docker-build.sh`
+6. Run and execute the `barcode.sh` script in an instance of the newly created image by executing `./docker-run.sh`
+
+## Notes:
+  * Put any image with barcode inside the `images`
